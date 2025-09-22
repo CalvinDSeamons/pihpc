@@ -1,10 +1,18 @@
 # PiHPC 🖥️⚡  
+
+[![Stars](https://img.shields.io/github/stars/calvindseamons/pihpc?style=social)](https://github.com/calvindseamons/pihpc/stargazers)
+[![Forks](https://img.shields.io/github/forks/calvindseamons/pihpc?style=social)](https://github.com/calvindseamons/pihpc/network/members)
+[![Issues](https://img.shields.io/github/issues/calvindseamons/pihpc)](https://github.com/calvindseamons/pihpc/issues)
+[![License](https://img.shields.io/github/license/calvindseamons/pihpc)](https://github.com/calvindseamons/pihpc/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/calvindseamons/pihpc)](https://github.com/calvindseamons/pihpc/commits/main)
+
 *A Lightweight Mini Supercomputer Testbed*  
 
 PiHPC is a **barebones, lightweight high-performance computing (HPC) cluster testbed** built for experimentation, demos, and hands-on learning.  
 This repository serves as a **launchpad for HPC systems design** using modern infrastructure tooling such as **Ansible, Kubernetes, SLURM, Splunk, and Grafana**.  
 
 Think of it as a **mini supercomputer lab** you can run anywhere — perfect for testing configs, workflows, and monitoring pipelines before scaling to real HPC environments.  
+O.o
 
 ---
 
@@ -58,27 +66,26 @@ kubectl apply -f kubernetes/
 kubectl apply -f monitoring/
 
 
-
 📊 Example Workflows
-Submit a SLURM job to run a toy MPI benchmark
-Monitor cluster health & metrics in Grafana
-Send logs and job events into Splunk for indexing & searching
-Deploy a containerized workload with Kubernetes and compare performance vs. bare metal
+- Submit a SLURM job to run a toy MPI benchmark
+- Monitor cluster health & metrics in Grafana
+- Send logs and job events into Splunk for indexing & searching
+- Deploy a containerized workload with Kubernetes and compare performance vs. bare metal
 🔗 Toolchain References
-Ansible – Automation & configuration management
-Kubernetes – Container orchestration
-SLURM – HPC workload manager
-Grafana – Dashboards & visualization
-Prometheus – Metrics collection & alerting
-Splunk – Logging & observability
+- Ansible: Automation & configuration management
+- Kubernetes: Container orchestration
+- SLURM: HPC workload manager
+- Grafana: Dashboards & visualization
+- Prometheus: Metrics collection & alerting
+- Splunk: Logging & observability
 🎯 Goals
-Provide a sandbox environment for HPC concepts
-Explore modern DevOps + HPC workflows (containers, observability, IaC)
-Share config examples for reproducible, lightweight clusters
-Serve as a learning resource for HPC engineers and enthusiasts
+- Provide a sandbox environment for HPC concepts
+- Explore modern DevOps + HPC workflows (containers, observability, IaC)
+- Share config examples for reproducible, lightweight clusters
+- Serve as a learning resource for HPC engineers and enthusiasts
 🤝 Contributing
-Contributions, PRs, and suggestions are welcome!
-Got a new demo workload, monitoring integration, or optimization tip? Open an issue or send a pull request.
+- Contributions, PRs, and suggestions are welcome!
+- Got a new demo workload, monitoring integration, or optimization tip? Open an issue or send a pull request.
 📜 License
-MIT License. Free to use, modify, and share.
+MIT License: Free to use, modify, and share.
 ⚡ PiHPC — because sometimes you just need a tiny supercomputer to play with.
