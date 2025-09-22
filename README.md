@@ -12,6 +12,7 @@ PiHPC is a **barebones, lightweight high-performance computing (HPC) cluster tes
 This repository serves as a **launchpad for HPC systems design** using modern infrastructure tooling such as **Ansible, Kubernetes, SLURM, Splunk, and Grafana**.  
 
 Think of it as a **mini supercomputer lab** you can run anywhere — perfect for testing configs, workflows, and monitoring pipelines before scaling to real HPC environments.  
+O.o
 
 ---
 
