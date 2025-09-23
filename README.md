@@ -27,18 +27,17 @@ O.o
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure
 
+```bash
 pihpc/
-├── ansible/ # Cluster config + provisioning playbooks
-├── kubernetes/ # Manifests, Helm charts, containerized HPC demos
-├── slurm/ # SLURM configs, sample job scripts
-├── monitoring/ # Grafana dashboards, Prometheus, Splunk queries
-├── demos/ # Lightweight HPC-style test apps and workflows
+├── ansible/       # Cluster config + provisioning playbooks
+├── kubernetes/    # Manifests, Helm charts, containerized HPC demos
+├── slurm/         # SLURM configs, sample job scripts
+├── monitoring/    # Grafana dashboards, Prometheus, Splunk queries
+├── demos/         # Lightweight HPC-style test apps and workflows
 └── README.md
-
-
----
+```
 
 ## 🚀 Getting Started  
 
@@ -64,7 +63,7 @@ kubectl apply -f kubernetes/
 
 # Launch monitoring stack
 kubectl apply -f monitoring/
-
+```
 
 📊 Example Workflows
 - Submit a SLURM job to run a toy MPI benchmark
