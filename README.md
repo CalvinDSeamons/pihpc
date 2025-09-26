@@ -1,4 +1,4 @@
-# PiHPC 🖥️⚡  
+# PiHPC  
 
 [![Stars](https://img.shields.io/github/stars/calvindseamons/pihpc?style=social)](https://github.com/calvindseamons/pihpc/stargazers)
 [![Forks](https://img.shields.io/github/forks/calvindseamons/pihpc?style=social)](https://github.com/calvindseamons/pihpc/network/members)
@@ -16,14 +16,14 @@ O.o
 
 ---
 
-## ✨ Features  
+## Features  
 
-- 🛠️ **Infrastructure-as-Code** with [Ansible](https://www.ansible.com/) for cluster provisioning  
-- ☸️ **Containerized workflows** via [Kubernetes](https://kubernetes.io/)  
-- ⏱️ **Job scheduling** with [SLURM](https://slurm.schedmd.com/)  
-- 📊 **Observability stack** with [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), and [Splunk](https://www.splunk.com/)  
-- 🔌 **Scalable design demos** — networking configs, storage backends, and cluster layout examples  
-- 🧩 **Pluggable examples**: toy workloads, monitoring dashboards, and cluster workflows  
+- **Infrastructure-as-Code** with [Ansible](https://www.ansible.com/) for cluster provisioning  
+- **Containerized workflows** via [Kubernetes](https://kubernetes.io/)  
+- ⏱**Job scheduling** with [SLURM](https://slurm.schedmd.com/)  
+- **Observability stack** with [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), and [Splunk](https://www.splunk.com/)  
+- **Scalable design demos** — networking configs, storage backends, and cluster layout examples  
+- **Pluggable examples**: toy workloads, monitoring dashboards, and cluster workflows  
 
 ---
 
@@ -39,14 +39,14 @@ pihpc/
 └── README.md
 ```
 
-## 🚀 Getting Started  
+## Getting Started  
 
 ### Prerequisites  
-- 🐧 Linux (Ubuntu/Debian/Rocky recommended)  
-- 🐍 Python 3.x  
-- 🔧 [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html)  
-- ☸️ [Kubernetes](https://kubernetes.io/docs/setup/) or [Minikube](https://minikube.sigs.k8s.io/)  
-- ⏱️ [SLURM](https://slurm.schedmd.com/quickstart.html)  
+-  Linux (Ubuntu/Debian/Rocky recommended)  
+-  Python 3.x  
+-  [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html)  
+-  [Kubernetes](https://kubernetes.io/docs/setup/) or [Minikube](https://minikube.sigs.k8s.io/)  
+-  [SLURM](https://slurm.schedmd.com/quickstart.html)  
 
 ### Setup Steps  
 
@@ -65,26 +65,42 @@ kubectl apply -f kubernetes/
 kubectl apply -f monitoring/
 ```
 
-📊 Example Workflows
-- Submit a SLURM job to run a toy MPI benchmark
-- Monitor cluster health & metrics in Grafana
-- Send logs and job events into Splunk for indexing & searching
-- Deploy a containerized workload with Kubernetes and compare performance vs. bare metal
-🔗 Toolchain References
-- Ansible: Automation & configuration management
-- Kubernetes: Container orchestration
-- SLURM: HPC workload manager
-- Grafana: Dashboards & visualization
-- Prometheus: Metrics collection & alerting
-- Splunk: Logging & observability
-🎯 Goals
-- Provide a sandbox environment for HPC concepts
-- Explore modern DevOps + HPC workflows (containers, observability, IaC)
-- Share config examples for reproducible, lightweight clusters
-- Serve as a learning resource for HPC engineers and enthusiasts
-🤝 Contributing
-- Contributions, PRs, and suggestions are welcome!
-- Got a new demo workload, monitoring integration, or optimization tip? Open an issue or send a pull request.
-📜 License
-MIT License: Free to use, modify, and share.
-⚡ PiHPC — because sometimes you just need a tiny supercomputer to play with.
+### Example Workflows
+- Submit a SLURM job to run a toy MPI benchmark  
+- Monitor cluster health & metrics in Grafana  
+- Send logs and job events into Splunk for indexing & searching  
+- Deploy a containerized workload with Kubernetes and compare performance vs. bare metal  
+
+---
+
+### Toolchain References
+- **Ansible** – Automation & configuration management  
+- **Kubernetes** – Container orchestration  
+- **SLURM** – HPC workload manager  
+- **Grafana** – Dashboards & visualization  
+- **Prometheus** – Metrics collection & alerting  
+- **Splunk** – Logging & observability  
+
+---
+
+### Goals
+- Provide a sandbox environment for HPC concepts  
+- Explore modern DevOps + HPC workflows (containers, observability, IaC)  
+- Share config examples for reproducible, lightweight clusters  
+- Serve as a learning resource for HPC engineers and enthusiasts  
+
+---
+
+### Contributing
+- Contributions, PRs, and suggestions are welcome!  
+- Got a new demo workload, monitoring integration, or optimization tip? Open an issue or send a pull request.  
+
+---
+
+### License
+MIT License – Free to use, modify, and share.  
+
+---
+
+**PiHPC** — because sometimes you just need a tiny supercomputer to play with.
+
